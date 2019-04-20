@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "[알고리즘]TF-IDF(단어 빈도-역문서 빈도)"
 date: 2017-11-25 20:24:21 +0900
 comments: true
