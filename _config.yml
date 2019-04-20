@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Young | ML"
 title_separator          : "-"
 name                     : "Young"
-description              : "An amazing website."
+description              : "머신러닝 엔지니어의 평범한 블로그"
 url                      : "https://zzing0907.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,10 +107,10 @@ analytics:
 # Site Author
 author:
   name             : "Young"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  avatar           : #"assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "머신러닝 엔지니어"
+  location         : "Seoul, Korea"
+  email            : "zzing0907@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
