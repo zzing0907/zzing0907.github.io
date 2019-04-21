@@ -1,3 +1,15 @@
+---
+title: "도커(Docker) 사용법"
+last_modified_at: 2018-04-06T18:00:00-00:00
+categories: 
+  - Docker
+tags:
+  - Docker
+  - Machine Learning
+---
+
+![docker_logo](https://zzing0907.github.io/assets/images/Docker_logo.png)
+
 도커는 환경설정을 모두 구성해 놓고 재사용이 용이하게 도와줍니다. 도커는 아래와 같이 설치할 수 있습니다.
 
 ```
