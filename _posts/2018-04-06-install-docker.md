@@ -71,7 +71,7 @@ sudo usermod -aG docker "user_name"  ## user_name 사용자에게 권한주기
 (sudo) docker rm [컨테이너 id 또는 컨테이너 이름]  
 ```
 
-​    
+
 
 도커 컨테이너 안으로 파일을 복사하는 명령어: cp  
 
@@ -116,16 +116,16 @@ sudo apt-get install -y nvidia-docker2
 docker 이미지를 미리 만들 수 있습니다. 아래와 같은 Dockerfile을 빌드해서 docker 이미지를 만들어 놓으면 여러가지 환경이 설정된 docker 컨테이너를 바로바로 만들어 낼 수 있습니다. docker의 큰 장점중 하나가 바로 이런 환경 관리가 쉽다는 점입니다. 아래 dockerfile은 tensorflow를 설치하는 예입니다.
 
 ```dockerfile
-FROM		nvidia/cuda  
-RUN			apt-get update  
-RUN			apt-get -y upgrade  
+FROM   nvidia/cuda  
+RUN    apt-get update  
+RUN    apt-get -y upgrade  
 
-RUN			apt-get -y install git build-essential python3-dev python3-pip 
+RUN    apt-get -y install git build-essential python3-dev python3-pip 
 
-ENV			PATH $PATH:/usr/local/cuda/bin  
-ENV			LD_LIBRARY_PATH $LD_LIBRARY_PATH:/usr/local/cuda/lib64  
+ENV	   PATH $PATH:/usr/local/cuda/bin  
+ENV	   LD_LIBRARY_PATH $LD_LIBRARY_PATH:/usr/local/cuda/lib64  
 
-RUN			pip3 install numpy tensorflow-gpu
+RUN	   pip3 install numpy tensorflow-gpu
 ```
 
 
